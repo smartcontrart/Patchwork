@@ -1,0 +1,1317 @@
+{
+  "contractName": "IPatchworkMetadata",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "associatedPatchwork",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "colors",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "shapes",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "borders",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "borderColors",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct IPatchwork.Patch",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "name": "getPatch",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "getPatchwork",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "associatedPatchwork",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "colors",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "shapes",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "borders",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "borderColors",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct IPatchwork.Patch",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "name": "generatePatchSVG",
+      "outputs": [
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"associatedPatchwork\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"colors\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"shapes\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"borders\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"borderColors\",\"type\":\"string\"}],\"internalType\":\"struct IPatchwork.Patch\",\"name\":\"\",\"type\":\"tuple\"}],\"name\":\"generatePatchSVG\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"associatedPatchwork\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"colors\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"shapes\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"borders\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"borderColors\",\"type\":\"string\"}],\"internalType\":\"struct IPatchwork.Patch\",\"name\":\"\",\"type\":\"tuple\"}],\"name\":\"getPatch\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"},{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"getPatchwork\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IPatchworkMetadata.sol\":\"IPatchworkMetadata\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IPatchwork.sol\":{\"keccak256\":\"0x644131f1189189c1cb62044f3d3b00a879e5b7bedb8fee9c39ff4b6f281a558b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a99ab52421e3ab3a91b44ae78176aec6c6837cb25867572afb0af47a89153840\",\"dweb:/ipfs/QmZHtQcTrhJkBKDTVMgTQfmWwKx1FPCqANctjVC9TRDuSN\"]},\"project:/contracts/IPatchworkMetadata.sol\":{\"keccak256\":\"0x8940fbb98eecf6cbb7029c21d5a8fa7b0131715a4767fa82805c4d2da05d0ac6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://edd4329859b896205872bba6191b7b2fbd87faae40a638fca0f67619564305a1\",\"dweb:/ipfs/QmRVsW4X1mHLVGiV9xe1z2UTsUqmWTszghyQdm2doCPWcj\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity >= 0.8.17;\n\nimport \"./IPatchwork.sol\";\n\ninterface IPatchworkMetadata is IPatchwork {\n   function getPatch(\n        uint8,\n        uint8,\n        uint8,\n        Patch calldata\n   ) external view returns(string memory);\n\n   function getPatchwork(\n      uint256,\n      uint8,\n      string calldata\n   ) external view returns(string memory);\n\n   function generatePatchSVG(\n      uint8, uint8, uint8, Patch calldata\n   ) external view returns(bytes memory);\n}",
+  "sourcePath": "/Users/bct/Documents/Dev/NFT_dev/Patchwork/contracts/IPatchworkMetadata.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IPatchworkMetadata.sol",
+    "exportedSymbols": {
+      "IPatchwork": [
+        1836
+      ],
+      "IPatchworkMetadata": [
+        1881
+      ]
+    },
+    "id": 1882,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1838,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:26:14"
+      },
+      {
+        "absolutePath": "project:/contracts/IPatchwork.sol",
+        "file": "./IPatchwork.sol",
+        "id": 1839,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1882,
+        "sourceUnit": 1837,
+        "src": "61:26:14",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 1840,
+              "name": "IPatchwork",
+              "nameLocations": [
+                "121:10:14"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 1836,
+              "src": "121:10:14"
+            },
+            "id": 1841,
+            "nodeType": "InheritanceSpecifier",
+            "src": "121:10:14"
+          }
+        ],
+        "canonicalName": "IPatchworkMetadata",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1881,
+        "linearizedBaseContracts": [
+          1881,
+          1836
+        ],
+        "name": "IPatchworkMetadata",
+        "nameLocation": "99:18:14",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "1569a7ae",
+            "id": 1855,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPatch",
+            "nameLocation": "146:8:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1851,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1843,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "164:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1842,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "164:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1845,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "179:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1844,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "179:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1847,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "194:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1846,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1850,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "209:14:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Patch_$1824_calldata_ptr",
+                    "typeString": "struct IPatchwork.Patch"
+                  },
+                  "typeName": {
+                    "id": 1849,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1848,
+                      "name": "Patch",
+                      "nameLocations": [
+                        "209:5:14"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1824,
+                      "src": "209:5:14"
+                    },
+                    "referencedDeclaration": 1824,
+                    "src": "209:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Patch_$1824_storage_ptr",
+                      "typeString": "struct IPatchwork.Patch"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:74:14"
+            },
+            "returnParameters": {
+              "id": 1854,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1853,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "251:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1852,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "251:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "250:15:14"
+            },
+            "scope": 1881,
+            "src": "137:129:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "5b76a829",
+            "id": 1866,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPatchwork",
+            "nameLocation": "280:12:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1862,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1857,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "300:7:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1856,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "300:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1859,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "315:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1858,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "315:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1861,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "328:15:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1860,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "328:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "292:56:14"
+            },
+            "returnParameters": {
+              "id": 1865,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1864,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "371:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1863,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "371:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "370:15:14"
+            },
+            "scope": 1881,
+            "src": "271:115:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "5b38210b",
+            "id": 1880,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "generatePatchSVG",
+            "nameLocation": "400:16:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1876,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1868,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "424:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1867,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "424:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1870,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "431:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1869,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1872,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "438:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1871,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "438:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1875,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "445:14:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Patch_$1824_calldata_ptr",
+                    "typeString": "struct IPatchwork.Patch"
+                  },
+                  "typeName": {
+                    "id": 1874,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1873,
+                      "name": "Patch",
+                      "nameLocations": [
+                        "445:5:14"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1824,
+                      "src": "445:5:14"
+                    },
+                    "referencedDeclaration": 1824,
+                    "src": "445:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Patch_$1824_storage_ptr",
+                      "typeString": "struct IPatchwork.Patch"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "416:48:14"
+            },
+            "returnParameters": {
+              "id": 1879,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1878,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "487:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1877,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "487:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "486:14:14"
+            },
+            "scope": 1881,
+            "src": "391:110:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1882,
+        "src": "89:414:14",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:470:14"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/IPatchworkMetadata.sol",
+    "exportedSymbols": {
+      "IPatchwork": [
+        1836
+      ],
+      "IPatchworkMetadata": [
+        1881
+      ]
+    },
+    "id": 1882,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1838,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:26:14"
+      },
+      {
+        "absolutePath": "project:/contracts/IPatchwork.sol",
+        "file": "./IPatchwork.sol",
+        "id": 1839,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1882,
+        "sourceUnit": 1837,
+        "src": "61:26:14",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 1840,
+              "name": "IPatchwork",
+              "nameLocations": [
+                "121:10:14"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 1836,
+              "src": "121:10:14"
+            },
+            "id": 1841,
+            "nodeType": "InheritanceSpecifier",
+            "src": "121:10:14"
+          }
+        ],
+        "canonicalName": "IPatchworkMetadata",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1881,
+        "linearizedBaseContracts": [
+          1881,
+          1836
+        ],
+        "name": "IPatchworkMetadata",
+        "nameLocation": "99:18:14",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "1569a7ae",
+            "id": 1855,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPatch",
+            "nameLocation": "146:8:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1851,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1843,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "164:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1842,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "164:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1845,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "179:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1844,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "179:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1847,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "194:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1846,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1850,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "209:14:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Patch_$1824_calldata_ptr",
+                    "typeString": "struct IPatchwork.Patch"
+                  },
+                  "typeName": {
+                    "id": 1849,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1848,
+                      "name": "Patch",
+                      "nameLocations": [
+                        "209:5:14"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1824,
+                      "src": "209:5:14"
+                    },
+                    "referencedDeclaration": 1824,
+                    "src": "209:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Patch_$1824_storage_ptr",
+                      "typeString": "struct IPatchwork.Patch"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:74:14"
+            },
+            "returnParameters": {
+              "id": 1854,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1853,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1855,
+                  "src": "251:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1852,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "251:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "250:15:14"
+            },
+            "scope": 1881,
+            "src": "137:129:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "5b76a829",
+            "id": 1866,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPatchwork",
+            "nameLocation": "280:12:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1862,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1857,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "300:7:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1856,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "300:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1859,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "315:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1858,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "315:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1861,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "328:15:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1860,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "328:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "292:56:14"
+            },
+            "returnParameters": {
+              "id": 1865,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1864,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1866,
+                  "src": "371:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1863,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "371:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "370:15:14"
+            },
+            "scope": 1881,
+            "src": "271:115:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "5b38210b",
+            "id": 1880,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "generatePatchSVG",
+            "nameLocation": "400:16:14",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1876,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1868,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "424:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1867,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "424:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1870,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "431:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1869,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1872,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "438:5:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 1871,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "438:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1875,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "445:14:14",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Patch_$1824_calldata_ptr",
+                    "typeString": "struct IPatchwork.Patch"
+                  },
+                  "typeName": {
+                    "id": 1874,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1873,
+                      "name": "Patch",
+                      "nameLocations": [
+                        "445:5:14"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1824,
+                      "src": "445:5:14"
+                    },
+                    "referencedDeclaration": 1824,
+                    "src": "445:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Patch_$1824_storage_ptr",
+                      "typeString": "struct IPatchwork.Patch"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "416:48:14"
+            },
+            "returnParameters": {
+              "id": 1879,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1878,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1880,
+                  "src": "487:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1877,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "487:5:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "486:14:14"
+            },
+            "scope": 1881,
+            "src": "391:110:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1882,
+        "src": "89:414:14",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:470:14"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-11-01T23:58:51.456Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

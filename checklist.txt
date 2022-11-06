@@ -1,0 +1,7 @@
+// 1 Deploy ClockURI
+// 2 Deploy Clock
+// 3 Add ClockURI address to Clock Contract
+// 4 Deploy ClockMint
+// 5 Add ClockMint as Clock admin
+// 6 Set ClockAddress in ClockMint
+// 6 Open Mint in ClockMint
